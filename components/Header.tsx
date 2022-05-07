@@ -1,10 +1,11 @@
+import exp from "constants";
 import React from "react";
 
 interface msgProps {
     message: string,
 }
 
-export const Header = ({message}: msgProps) => {
+const Header = ({message}: msgProps) => {
     return (
     <header className="mx-auto mt-2">
       <h1 className="text-2xl mt-8 md:text-4xl font-bold font-koulen text-rose-500 font-bold text-center mx-auto ">
@@ -13,3 +14,5 @@ export const Header = ({message}: msgProps) => {
     </header>
     )
 }
+
+export default Header;
