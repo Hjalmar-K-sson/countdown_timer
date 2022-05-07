@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { Header } from '../components/Header'
+import Header  from '../components/Header'
+import TimerContainer from '../components/TimerContainer'
+import TimerInput from '../components/TimerInput'
 import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
